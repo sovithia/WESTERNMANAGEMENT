@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{DE3E6A27-BBE1-4C0A-82CB-A1FDBD4FB5EC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WesternManagementApp/MainPage.xaml">
+    <Files>
+      <File FileName="WesternManagementApp/MainPage.xaml.cs" />
+      <File FileName="WesternManagementApp/MainPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WesternManagementApp" expanded="True">
+            <Node name="WesternManagementApp" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WesternManagementApp PreferredExecutionTarget="MyAppleMacCatalystID" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
