@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WesternManagementApp.UserCreatePage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             Title="UserCreatePage">
+    <StackLayout Padding="30,50,30,30"  >
+          <StackLayout>
+            
+          
+            <syncfusion:SfTextInputLayout  Grid.Row="0" Grid.Column="0" Hint="Username" Style="{StaticResource InputLayoutStyleMobile}" >
+              <Entry  Text="{Binding currentItem.username}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout  Grid.Row="1" Grid.Column="0" Hint="Firstname" Style="{StaticResource InputLayoutStyleMobile}" >
+              <Entry  Text="{Binding currentItem.firstname}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout Grid.Row="2" Grid.Column="0" Hint="Lastname" Style="{StaticResource InputLayoutStyleMobile}" >
+            <Entry  Text="{Binding currentItem.lastname}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout Grid.Row="3" Grid.Column="0" Hint="Email" Style="{StaticResource InputLayoutStyleMobile}" >
+            <Entry Text="{Binding currentItem.email}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout Grid.Row="4" Grid.Column="0" Hint="Password" Style="{StaticResource InputLayoutStyleMobile}" >
+            <Entry Text="{Binding currentItem.password}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout Grid.Row="5" Grid.Column="0" Hint="Phone"  Style="{StaticResource InputLayoutStyleMobile}"  >
+            <Entry Text="{Binding currentItem.phone}" /></syncfusion:SfTextInputLayout>
+
+            <syncfusion:SfTextInputLayout Grid.Row="6" Grid.Column="0" Hint="Roles" Style="{StaticResource InputLayoutStyleMobile}" >
+            <Picker SelectedIndexChanged="rolePicker_SelectedIndexChanged" Title="Roles" x:Name="rolePicker" HorizontalTextAlignment="Center" TextColor="White" SelectedItem="{Binding currentItem.role}" /></syncfusion:SfTextInputLayout>
+
+            <Grid >
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+              </Grid.ColumnDefinitions>
+                <syncfusion:SfTextInputLayout x:Name="schoolFrame" Grid.Column="0"  Hint="School" Style="{StaticResource InputLayoutStyleMobile}" >
+                <Picker  Title="School" IsEnabled="False" x:Name="schoolPicker" HorizontalTextAlignment="Center" TextColor="White" ItemDisplayBinding="{Binding name}"  /></syncfusion:SfTextInputLayout>
+
+                <syncfusion:SfTextInputLayout x:Name="dealerFrame" Grid.Column="1"  Hint="FabricDealer" Style="{StaticResource InputLayoutStyleMobile}" >
+                <Picker  Title="Fabric Dealer" IsEnabled="False" x:Name="fabricPicker" HorizontalTextAlignment="Center" TextColor="White" ItemDisplayBinding="{Binding name}"  /></syncfusion:SfTextInputLayout>
+
+                <syncfusion:SfTextInputLayout x:Name="clotheFrame" Grid.Column="2"  Hint="ClotheFactory" Style="{StaticResource InputLayoutStyleMobile}" >
+                <Picker  Title="Clothe Factory" IsEnabled="False" x:Name="clothePicker" HorizontalTextAlignment="Center" TextColor="White" ItemDisplayBinding="{Binding name}"  /></syncfusion:SfTextInputLayout>
+            </Grid>
+            
+            
+                        
+            <Button Grid.Row="8" Grid.Column="0" x:Name="actionBtn" Clicked="OnSaveClicked" />
+          </StackLayout>
+    </StackLayout>   
+</ContentPage>

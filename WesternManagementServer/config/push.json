@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "westernmanagement-e62c1",
+  "private_key_id": "cf47d387c51c796711d00cfb463c298c801f75af",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWyHKq02PZMrU/\natuU/omsZRJvnHfy/eiVBEIYa5Ttxt6Y7aNsNCSYJX1p7NicFHu3UDBqu148S1II\nI1vT5nFu2l6BpFE4mNzmZNjdDQu4Y9wdtFvwamiZm6ji6IQ5QohkkY2ig0JtBZDw\nM/7iFdJ6VPMaVnZ9TcZNHnz3Xlzt5PAyhjtvn1E02xOd57kNVm8mNMtX5lKmrGza\noQSRTWx5b/nFz4NHetGuW/d6rXn4IztrPTBR80yDncdG5XcNZwYfA/LrbmsEUXCt\nMIvUImUaA5GHhj2P5e9H+sS5jdz1JG4i75/YP21yeTlKRDLicsWDkFWLM/Zw9VTm\nC2ZEkTCNAgMBAAECggEAB26+gxlXcvh4K7aQXI6rZ9HD6noFGkhS8GHfl1XqZzO9\ngm100pAtClkqcXberxYJYE2wLegH1I58YKeNQbRk4q5qsfykSpEFp0Zq98lVXr87\n6ojnhpa+wb67KzEF2a/AUGSgvLSN9lUIj+YTZl0AIIzIheCN71D4nAoXo9LPj0mP\nkxi0hQC+IYe2a/1lkjY47sAIYFWC83QUSPUvzT21ObcCSjjr5sKWuIxB7rWBPU2a\nYgmO5SZhAHYpDRdc3tFdlAWG/MxRzVFw/czJ4S/hc2n4Hc1Gnj0/wTZgx4Xt7pLC\nDbYGWIM++V/+L+EkAGxLiS7aRx+JkTUWvK1pNcELWQKBgQDtGRyMKB3lz+ddnIN0\nV309pM07ZoUIf10jt8fFDCsTDsaY7Z/XkjNi0woK5ik5SiY0DkY4gBucDmuP6o58\ndRTl8pPKrG9s+pUUIWD+Rugk5EOFZqOcggDzYKA1BLJtE9oz4NpTHtX0X9E71CYI\nKckuqdFWu69obS+eTJnaAfP2lQKBgQDn5+l89+Ci90BXpN7IPVrKUYUCaGLKb1xV\ne5ftgyOOnptElG9brN7j9mw8jwLtbMWEswg6Mn4OQmaxsWwtHbxie9/ItrnXunLQ\nbT7SZrJxIOei4Doqlg0E4ceMAITYW8xwGtlTjJkeZgya8SDXpQj6Af2XVOLkADfD\n0FVBl0qsGQKBgQDeATZm0iV0iyBz2dqItGcTsl1tMkh8tW1LxYirrAIlPR+eEFor\n6rxs23i6zdppx1FQStFblDDGBgaXYiR6ytJ/oYzbKGzJGTU//SUp0tEJwiarIXkv\nUdd8C8zW+Aft9LnK+87SJ7xkrtdm8vWNjTrQk7ftQ54x5JLC4azpogyCpQKBgQCY\nKimgYB07kTTczUeI6Ak8m4TE8a1w2uUhCfnEVLnuCNAkjakL5EBUIAshKU1ocGii\nC78oQJ1JyfQMQDiU2eAUVuedkZgbnzFa5XPFJrGLXWXgD3TbIJ3mSCdhC64fMQzR\nuixDkAugUKGQwQsltBpRwSCePYqqxCHTEE4Avb63cQKBgHOhO6w+dLuCDAKI9CGo\nu1o/Iu5EPerkeXbkjcIpnYoAdcJSZtcbYmcUV0bLsN8MOOsTFZFP9W76pVeBfcbM\n/M5OUjmK2CqiuoQWwd5Af4yCVXosovuxD93AhNgGZgb8gpbbXSBsy/Fr9F/wZJ1J\n1Z17vyy0rBvdkbj7iR9SKtqW\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-u1z4g@westernmanagement-e62c1.iam.gserviceaccount.com",
+  "client_id": "102469546280381764004",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-u1z4g%40westernmanagement-e62c1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

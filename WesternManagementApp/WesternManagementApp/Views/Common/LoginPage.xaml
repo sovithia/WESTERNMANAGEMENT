@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WesternManagementApp.Views.Common.LoginPage"
+             xmlns:core="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             Title="LoginPage">
+     <StackLayout VerticalOptions="FillAndExpand" Padding="40,40,40,0" Spacing="5">
+
+            <Image Source="dotnet_bot" BackgroundColor="#746AB0" WidthRequest="150" HeightRequest="150" />
+            
+            <Label TextColor="White" Text="School Order Management" HorizontalTextAlignment="Center"  FontSize="Large"/>           
+            
+            <syncfusion:SfTextInputLayout  Hint="Login" Style="{StaticResource InputLayoutStyleMobile}" >
+              <Entry  Text="sovi" x:Name="username" FontSize="Large" HorizontalTextAlignment="Center"  />
+            </syncfusion:SfTextInputLayout>
+            
+            <syncfusion:SfTextInputLayout  Hint="Password" Style="{StaticResource InputLayoutStyleMobile}" >
+            <Entry  IsPassword="true" Text="pied2porc" Placeholder="Password" FontSize="Large" x:Name="password" HorizontalTextAlignment="Center"  /> 
+            </syncfusion:SfTextInputLayout>
+              
+
+            <core:SfBusyIndicator x:Name="loader" WidthRequest="120" HeightRequest="30" AnimationType="CircularMaterial" IsRunning="false" />        
+
+          
+        
+            <Button  Text="Login" Clicked="Handle_Clicked" x:Name="loginBtn"
+                    FontSize="Large" HorizontalOptions="FillAndExpand" VerticalOptions = "Center"/>           
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+            <Label Grid.Column="1"   x:Name="version" FontSize="Large" HorizontalTextAlignment="End"/>    
+            </Grid>                        
+            <Label Text="Login Error" TextColor="Red" HorizontalTextAlignment="Center"  FontSize="Large" x:Name="error" IsVisible="false" />                        
+
+        </StackLayout>
+</ContentPage>

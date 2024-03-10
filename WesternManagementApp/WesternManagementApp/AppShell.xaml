@@ -6,10 +6,74 @@
     xmlns:local="clr-namespace:WesternManagementApp"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+      <Shell.Resources>
+         <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#009183" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="#ffed00" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#ffed00" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="#009183" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+     
+         <Style x:Key="CommonShell" x:Name="CommonShell"
+               TargetType="Element">             
+                <Setter Property="Shell.ForegroundColor"
+                        Value="#ffed00" />
+                <Setter Property="Shell.TitleColor"
+                        Value="#ffed00" />            
+                <Setter Property="Shell.DisabledColor"
+                        Value="Red" />
+                <Setter Property="Shell.UnselectedColor"
+                        Value="White" />
+                <Setter Property="Shell.TabBarUnselectedColor"
+                        Value="White"/>
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#009183" />
+                <Setter Property="Shell.TabBarBackgroundColor"
+                        Value="#009183" />
+            </Style>
+      
+    </Shell.Resources>
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <StackLayout BackgroundColor="#ffed00" HeightRequest="80" Padding="0,20,0,0">
+                <Image                   
+                    HeightRequest="60"
+                    Source="logo"
+                    VerticalOptions="Center" />
+            </StackLayout>
+                      
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+
+    <Shell.FlyoutFooterTemplate>
+        <DataTemplate>
+            <StackLayout Padding="0,0,0,20" >
+                <Label Text="Western Delivery"
+                       TextColor="GhostWhite"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />                
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutFooterTemplate>
+   
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" x:Name="itemContainer">           
+    </FlyoutItem>
 
 </Shell>
 

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WesternManagementApp.UserListPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
+             xmlns:syncfusioncore="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"             
+             Title="UserListPage">
+    <StackLayout Padding="20,40,20,20" >      
+     <syncfusion:SfListView x:Name="listView" ItemTapped="listView_ItemTapped" VerticalOptions="FillAndExpand" AutoFitMode="Height">
+        <syncfusion:SfListView.ItemTemplate>
+          <DataTemplate>
+          <Grid >
+              <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+
+            <syncfusioncore:SfTextInputLayout  Hint="Firstname" Grid.Column="0" Grid.Row="0"  Style="{StaticResource InputLayoutStyleMobile}">
+                <Entry IsReadOnly="True" Text="{Binding firstname}"   />
+            </syncfusioncore:SfTextInputLayout>
+
+            <syncfusioncore:SfTextInputLayout  Hint="lastname" Grid.Column="1" Grid.Row="0"  Style="{StaticResource InputLayoutStyleMobile}">
+              <Entry IsReadOnly="True"  Text="{Binding lastname}" Grid.Column="1" Grid.Row="0" />
+            </syncfusioncore:SfTextInputLayout>
+
+          </Grid>
+          </DataTemplate>
+        </syncfusion:SfListView.ItemTemplate>
+      </syncfusion:SfListView>
+    </StackLayout>
+</ContentPage>

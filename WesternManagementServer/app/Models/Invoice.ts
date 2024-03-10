@@ -5,6 +5,15 @@ export default class Invoice extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
+  @column()
+  public invoiceNumber: string
+
+  @column()
+  public status: string
+
+  @column()
+  public amount: number
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 

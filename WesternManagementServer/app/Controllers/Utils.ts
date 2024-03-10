@@ -1,10 +1,19 @@
 var admin = require("firebase-admin")
 var serviceAccount = require("../../config/push.json");
 import User from 'App/Models/User'
+import fs from 'fs'
 
 export default class Utils {
  
- 
+  static  generateInvoiceNumber() {
+    return new Date().getTime().toString()
+  }
+
+  static  signatureCount(id){
+		var files = fs.readdirSync('../../../images/signatures').filter(fn => fn.startsWith(id + '_'))
+		return files.length
+	}
+
   static async sendPushNotificationToUser(userid,messagetitle,messagebody)
   {
     if (admin.apps.length === 0){

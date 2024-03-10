@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746054163883",
+    "project_id": "westernmanagement-e62c1",
+    "storage_bucket": "westernmanagement-e62c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746054163883:android:74f0ef49db3c97315e06ee",
+        "android_client_info": {
+          "package_name": "store.smartpiece.westernmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtLOOL3ybtjUrVlIljq0i6OJxR1orpbUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

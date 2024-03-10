@@ -6,12 +6,22 @@ import {
   BaseModel,
 } from '@ioc:Adonis/Lucid/Orm'
 
+// Type: SchoolPrinciple,FinanceManager,VPFinance,BOD
 export default class User extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
   @column()
   public email: string
+
+  @column()
+  public firstname: string
+
+  @column()
+  public type : string
+
+  @column()
+  public lastname: string
 
   @column({ serializeAs: null })
   public password: string

@@ -1,15 +1,44 @@
 ﻿<Properties StartupConfiguration="{DE3E6A27-BBE1-4C0A-82CB-A1FDBD4FB5EC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WesternManagementApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WesternManagementApp/Views/PurchaseRequest/CentralLowPurchaseRequestPage.xaml.cs">
     <Files>
       <File FileName="WesternManagementApp/MainPage.xaml.cs" />
-      <File FileName="WesternManagementApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/PurchaseRequestListPage.xaml" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/PurchaseRequestListPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Views/Common/LoginPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Views/User/UserListPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Services/DataService.cs" />
+      <File FileName="WesternManagementApp/Views/User/UserCreatePage.xaml" />
+      <File FileName="WesternManagementApp/Views/User/UserCreatePage.xaml.cs" />
+      <File FileName="WesternManagementApp/MainPage.xaml" />
+      <File FileName="WesternManagementApp/Views/User/UserListPage.xaml" />
+      <File FileName="WesternManagementApp/Services/RestEngine.cs" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CentralLowPurchaseRequestPage.xaml" Line="4" Column="43" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CentralHighPurchaseRequestPage.xaml" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CampusLowPurchaseRequestPage.xaml" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CentralHighPurchaseRequestPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/PurchaseRequestCreatePage.xaml" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CampusHighPurchaseRequestPage.xaml" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CampusHighPurchaseRequestPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CampusLowPurchaseRequestPage.xaml.cs" />
+      <File FileName="WesternManagementApp/Views/PurchaseRequest/CentralLowPurchaseRequestPage.xaml.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WesternManagementApp" expanded="True">
-            <Node name="WesternManagementApp" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            <Node name="Solution Items" expanded="True" />
+            <Node name="WesternManagementApp">
+              <Node name="Views" expanded="True">
+                <Node name="PurchaseRequest" expanded="True">
+                  <Node name="CentralLowPurchaseRequestPage.xaml" expanded="True">
+                    <Node name="CentralLowPurchaseRequestPage.xaml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="User" expanded="True">
+                  <Node name="UserCreatePage.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -17,7 +46,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WesternManagementApp PreferredExecutionTarget="MyAppleMacCatalystID" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.WesternManagementApp PreferredExecutionTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
